@@ -1,0 +1,68 @@
+body {
+   min-width:671px;
+}
+
+.print {
+    display:block;
+}
+
+.item {
+    page-break-inside: avoid;
+}
+
+#body_center {
+    width:671px;
+    margin:0 20px;
+}
+
+#sidebar {
+    display:none;
+}
+
+#header_logo {
+    left:0;
+}
+
+#header_menu {
+    display:none;
+}
+
+#header_cover {
+    display:none;
+}
+
+
+#header_bookmark {
+    display:none;
+}
+
+#header_contacts {
+    position:absolute;
+    top:0;
+    width:300px;
+    background:none;
+    color:#000;
+}
+
+.header_contacts_item a, .header_contacts_item a span {
+    font-size:28px !important;
+    color:#000 !important;
+}
+
+#header_contacts_siteurl {
+    display:block;
+    margin:7px 0 0 0;
+    font-size:19px;
+}
+
+#header_contacts_callorder {
+    display:none;
+}
+
+#content {
+    float:none;
+}
+
+#footer_stat {
+    display:none;
+}
